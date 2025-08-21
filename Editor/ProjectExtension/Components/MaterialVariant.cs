@@ -11,7 +11,16 @@ namespace moe.noridev.editortoolbox
         {
             if(ProjectExtension.isIconGUI || extension != ".mat" || ProjectExtension.GUIDToObject(guid) is not Material material) return;
 
-            if(material.isVariant && material.parent) GUIHelper.DrawLabel(ref currentRect, $"Variant: {material.parent.name}");
+            if (material == null || !material) return;
+            
+            if(material.isVariant && material.parent != null && material.parent)
+            {
+                var parentName = material.parent.name;
+                if (!string.IsNullOrEmpty(parentName))
+                {
+                    GUIHelper.DrawLabel(ref currentRect, $"Variant: {parentName}");
+                }
+            }
         }
     }
 }

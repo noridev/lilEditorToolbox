@@ -21,10 +21,19 @@ namespace moe.noridev.editortoolbox
         private static readonly Dictionary<string, Object> objMap = new();
         public static Object GUIDToObject(string guid)
         {
-            if(objMap.TryGetValue(guid, out var obj)) return obj;
+            if(objMap.TryGetValue(guid, out var obj))
+            {
+                if (obj != null && obj) return obj;
+                objMap.Remove(guid);
+            }
             var path = AssetDatabase.GUIDToAssetPath(guid);
             if(string.IsNullOrEmpty(path)) return objMap[guid] = null;
-            return objMap[guid] = AssetDatabase.LoadAssetAtPath<Object>(path);
+            var loadedObj = AssetDatabase.LoadAssetAtPath<Object>(path);
+            if (loadedObj != null && loadedObj)
+            {
+                objMap[guid] = loadedObj;
+            }
+            return loadedObj;
         }
 
         internal static readonly Type[] types = AppDomain.CurrentDomain.GetAssemblies()
@@ -97,7 +106,21 @@ namespace moe.noridev.editortoolbox
             if(projectExtensionComponents == null) Resolve();
 
             isSubAsset = guid == guidPrev;
-            foreach(var c in projectExtensionComponents) c.OnGUI(ref currentRect, guid, path, name, extension, position);
+            
+            if (projectExtensionComponents != null)
+            {
+                foreach(var c in projectExtensionComponents)
+                {
+                    try
+                    {
+                        c.OnGUI(ref currentRect, guid, path, name, extension, position);
+                    }
+                    catch (System.Exception e)
+                    {
+                        Debug.LogWarning($"ProjectExtension component {c.GetType().Name} failed: {e.Message}");
+                    }
+                }
+            }
 
             guidPrev = guid;
         }

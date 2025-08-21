@@ -29,3 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2025-08-22
 기반 lilEditorToolbox 버전: <b>1.9.1</b>
+
+### Fixed
+- Unity 에디터를 종료할 때 충돌이 발생할 수 있음

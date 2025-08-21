@@ -11,6 +11,7 @@ namespace moe.noridev.editortoolbox
 
         internal static void DrawLabel(ref Rect currentRect, string label)
         {
+            if (string.IsNullOrEmpty(label)) return;
             currentRect.xMin += 4;
             currentRect.width = StyleAssetLabel.CalcSize(new GUIContent(label)).x;
             GUI.Label(currentRect, label, StyleAssetLabel);
