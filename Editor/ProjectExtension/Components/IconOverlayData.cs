@@ -5,11 +5,11 @@ using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
 
     // ディレクトリが空だとUnityのバグでエラーになるので Assets/../ は必須
-    [FilePath("Assets/../jp.lilxyzw.editortoolbox.IconOverlayData.asset", FilePathAttribute.Location.ProjectFolder)]
+    [FilePath("Assets/../moe.noridev.editortoolbox.IconOverlayData.asset", FilePathAttribute.Location.ProjectFolder)]
     internal class IconOverlayData : ScriptableSingleton<IconOverlayData>
     {
         public IconOverlayItem[] items = new IconOverlayItem[]{};

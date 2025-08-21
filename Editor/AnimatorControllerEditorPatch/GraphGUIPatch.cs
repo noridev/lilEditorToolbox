@@ -1,9 +1,9 @@
 #if LIL_HARMONY
 using HarmonyLib;
 using System.Reflection;
-using static jp.lilxyzw.editortoolbox.AnimatorControllerEditorPatch;
+using static moe.noridev.editortoolbox.AnimatorControllerEditorPatch;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [HarmonyPatch]
     internal class GraphGUIPatch

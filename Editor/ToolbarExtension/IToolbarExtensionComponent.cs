@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.UIElements;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     public interface IToolbarExtensionComponent
     {

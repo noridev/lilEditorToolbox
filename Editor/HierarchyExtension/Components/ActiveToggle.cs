@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("A checkbox that turns an object on and off.")]
     internal class ActiveToggle : IHierarchyExtensionComponent
@@ -15,7 +15,7 @@ namespace jp.lilxyzw.editortoolbox
             currentRect.x -= ICON_SIZE;
             currentRect.width = ICON_SIZE;
             EditorGUI.BeginChangeCheck();
-            var active = GUIHelper.DToggle("jp.lilxyzw.editortoolbox.ActiveToggle", instanceID.ToString(), currentRect, gameObject.activeSelf);
+            var active = GUIHelper.DToggle("moe.noridev.editortoolbox.ActiveToggle", instanceID.ToString(), currentRect, gameObject.activeSelf);
             if(EditorGUI.EndChangeCheck())
             {
                 using var so = new SerializedObject(gameObject);

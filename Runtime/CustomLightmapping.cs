@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
 
-namespace jp.lilxyzw.editortoolbox.runtime
+namespace moe.noridev.editortoolbox.runtime
 {
     [Docs(
         "CustomLightmapping",

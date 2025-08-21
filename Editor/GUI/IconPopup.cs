@@ -5,7 +5,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal class IconPopup : VisualElement
     {

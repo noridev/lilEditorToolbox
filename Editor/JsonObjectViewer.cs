@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Docs(
         "A tool to view and edit any object in json format",

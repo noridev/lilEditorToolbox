@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Alternates the background color of the Hierarchy.")]
     internal class AlternatingBackground : IHierarchyExtensionComponent

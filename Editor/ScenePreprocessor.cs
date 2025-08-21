@@ -1,11 +1,11 @@
-using jp.lilxyzw.editortoolbox.runtime;
+using moe.noridev.editortoolbox.runtime;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal class ScenePreprocessor : IProcessSceneWithReport
     {

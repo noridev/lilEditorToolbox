@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     public interface IProjectExtensionComponent
     {

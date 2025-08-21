@@ -1,8 +1,8 @@
 {
-    "name": "jp.lilxyzw.editortoolbox.runtime",
+    "name": "moe.noridev.editortoolbox.runtime",
     "rootNamespace": "",
     "references": [
-        "jp.lilxyzw.editortoolbox.docsgenerator",
+        "moe.noridev.editortoolbox.docsgenerator",
         "VRC.SDKBase"
     ],
     "includePlatforms": [],

@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Docs(
         "Settings",
@@ -16,7 +16,7 @@ namespace jp.lilxyzw.editortoolbox
     internal class EditorToolboxSettings : ScriptableObject
     {
         [Header("Language")]
-        [Tooltip("The language setting for lilEditorToolbox. The language file exists in `jp.lilxyzw.editortoolbox/Editor/Localization`, and you can support other languages by creating a language file.")]
+        [Tooltip("The language setting for lilEditorToolbox. The language file exists in `moe.noridev.editortoolbox/Editor/Localization`, and you can support other languages by creating a language file.")]
         public string language = CultureInfo.CurrentCulture.Name;
 
         [L10nHeader("Asset Import")]
@@ -152,8 +152,8 @@ namespace jp.lilxyzw.editortoolbox
         private static string GetFilePath()
         {
             if(string.IsNullOrEmpty(EditorToolboxSettingsProject.instance.settingPreset))
-                return InternalEditorUtility.unityPreferencesFolder + "/jp.lilxyzw/editortoolbox.asset";
-            return InternalEditorUtility.unityPreferencesFolder + "/jp.lilxyzw/editortoolbox_" + EditorToolboxSettingsProject.instance.settingPreset + ".asset";
+                return InternalEditorUtility.unityPreferencesFolder + "/moe.noridev/editortoolbox.asset";
+            return InternalEditorUtility.unityPreferencesFolder + "/moe.noridev/editortoolbox_" + EditorToolboxSettingsProject.instance.settingPreset + ".asset";
         }
     }
 
@@ -218,7 +218,7 @@ namespace jp.lilxyzw.editortoolbox
                 if (iteratorProject.name == "settingPreset")
                 {
                     EditorGUI.BeginChangeCheck();
-                    settingPresets ??= new[] { "(Default)" }.Union(Directory.GetFiles(InternalEditorUtility.unityPreferencesFolder + "/jp.lilxyzw")
+                    settingPresets ??= new[] { "(Default)" }.Union(Directory.GetFiles(InternalEditorUtility.unityPreferencesFolder + "/moe.noridev")
                         .Select(p => Path.GetFileNameWithoutExtension(p))
                         .Where(f => f.StartsWith("editortoolbox_"))
                         .Select(f => f.Substring("editortoolbox_".Length))).Union(new[] { L10n.L("New Preset") }).ToArray();
@@ -248,7 +248,7 @@ namespace jp.lilxyzw.editortoolbox
 
             if (L10n.ButtonLimited("Open preference folder"))
             {
-                System.Diagnostics.Process.Start(InternalEditorUtility.unityPreferencesFolder + "/jp.lilxyzw");
+                System.Diagnostics.Process.Start(InternalEditorUtility.unityPreferencesFolder + "/moe.noridev");
             }
 
             // 共通設定
@@ -265,7 +265,7 @@ namespace jp.lilxyzw.editortoolbox
                 {
                     var contains = vals.Contains(name.fullname);
                     string label = L10n.L(name.key[0]);
-                    if (!name.fullname.StartsWith("jp.lilxyzw.editortoolbox")) label = $"{label} ({name.fullname})";
+                    if (!name.fullname.StartsWith("moe.noridev.editortoolbox")) label = $"{label} ({name.fullname})";
                     var toggle = EditorGUILayout.ToggleLeft(L10n.G(label, name.key[1]), contains);
                     if (contains != toggle)
                     {

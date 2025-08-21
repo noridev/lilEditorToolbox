@@ -6,7 +6,7 @@ using System.Net;
 using System.Text;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal class GUIDLibrary : ScriptableObject
     {

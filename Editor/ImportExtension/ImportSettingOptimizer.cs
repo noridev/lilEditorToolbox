@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEditor.Build;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal class ImportSettingOptimizer : AssetPostprocessor
     {

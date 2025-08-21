@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox.runtime
+namespace moe.noridev.editortoolbox.runtime
 {
     [AddComponentMenu("/")]
     internal class CoroutineHandler : EditorOnlyBehaviour

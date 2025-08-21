@@ -1,10 +1,16 @@
 {
-  "name": "jp.lilxyzw.editortoolbox",
-  "version": "1.9.1",
-  "displayName": "lilEditorToolbox",
+  "name": "moe.noridev.editortoolbox",
+  "version": "1.0.0",
+  "baseVersion": "1.9.1",
+  "displayName": "NoriDev - lilEditorToolbox",
   "description": "Extensions for Unity Editor.",
+  "author": {
+    "name": "NoriDev",
+    "url": "https://github.com/noridev"
+  },
   "unity": "2022.3",
   "license": "MIT",
-  "url" : "https://github.com/lilxyzw/lilEditorToolbox/releases/download/1.9.1/jp.lilxyzw.editortoolbox-1.9.1.zip?",
-  "repo" : "https://lilxyzw.github.io/vpm-repos/vpm.json"
+  "url" : "https://github.com/noridev/lilEditorToolbox/releases/download/1.0.0/moe.noridev.editortoolbox-1.0.0.zip?",
+  "repo" : "https://vpm.noridev.moe/index.json",
+  "changelogUrl": "https://github.com/noridev/lilEditorToolbox/blob/main/CHANGELOG_NRDV.md"
 }

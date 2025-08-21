@@ -5,7 +5,7 @@ using UnityEditor.Search;
 using UnityEngine.UIElements;
 using Object = UnityEngine.Object;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Docs(
         "Extended Inspector",

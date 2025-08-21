@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Highlight the assets you imported in each Unitypackage.")]
     internal class UnitypackageHilighter : IProjectExtensionComponent

@@ -1,8 +1,8 @@
-using jp.lilxyzw.editortoolbox.runtime;
+using moe.noridev.editortoolbox.runtime;
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [CustomEditor(typeof(CameraMover))]
     internal class CameraMoverEditor : LocalizedComponentEditor

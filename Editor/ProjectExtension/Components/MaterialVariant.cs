@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Displays the parent material if the material is a variant.")]
     internal class MaterialVariant : IProjectExtensionComponent

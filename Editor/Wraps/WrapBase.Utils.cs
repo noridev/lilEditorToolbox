@@ -1,6 +1,6 @@
 using System;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal abstract partial class WrapBase
     {

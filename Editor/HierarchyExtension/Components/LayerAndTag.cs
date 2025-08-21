@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Displays the layer and tag of an object.")]
     internal class LayerAndTag : IHierarchyExtensionComponent

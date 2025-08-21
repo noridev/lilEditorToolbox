@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Displays the material's shader.")]
     internal class MaterialShader : IProjectExtensionComponent

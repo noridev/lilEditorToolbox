@@ -8,9 +8,9 @@ using UnityEditor.Animations;
 using UnityEngine;
 using Object = UnityEngine.Object;
 using ReorderableList = UnityEditorInternal.ReorderableList;
-using static jp.lilxyzw.editortoolbox.AnimatorControllerEditorPatch;
+using static moe.noridev.editortoolbox.AnimatorControllerEditorPatch;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     // Layerのコピペを実装
     [HarmonyPatch]

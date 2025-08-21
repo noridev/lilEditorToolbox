@@ -2,7 +2,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Displays lines that represent the hierarchy of files.")]
     internal class ProjectLine : IProjectExtensionComponent

@@ -200,8 +200,8 @@ msgstr "lilEditorToolboxに関する設定です。メニューバーの`Edit/Pr
 msgid "Open preference folder"
 msgstr "設定ファイルの保存先を表示"
 
-msgid "The language setting for lilEditorToolbox. The language file exists in `jp.lilxyzw.editortoolbox/Editor/Localization`, and you can support other languages by creating a language file."
-msgstr "lilEditorToolboxの設定言語です。言語ファイルは`jp.lilxyzw.editortoolbox/Editor/Localization`に存在し、言語ファイルを作成することで他の言語にも対応できます。"
+msgid "The language setting for lilEditorToolbox. The language file exists in `moe.noridev.editortoolbox/Editor/Localization`, and you can support other languages by creating a language file."
+msgstr "lilEditorToolboxの設定言語です。言語ファイルは`moe.noridev.editortoolbox/Editor/Localization`に存在し、言語ファイルを作成することで他の言語にも対応できます。"
 
 msgid "Asset Import"
 msgstr "アセットインポート"

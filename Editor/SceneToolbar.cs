@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Overlay(
         typeof(SceneView),
@@ -19,14 +19,14 @@ namespace jp.lilxyzw.editortoolbox
     )]
     internal class SceneToolbar : ToolbarOverlay
     {
-        internal const string ID = "jp.lilxyzw.editortoolbox.SceneToolbar";
+        internal const string ID = "moe.noridev.editortoolbox.SceneToolbar";
         SceneToolbar() : base(MSAAButton.ID){}
     }
 
     [EditorToolbarElement(ID, typeof(SceneView))]
     internal class MSAAButton : ToolbarToggle
     {
-        internal const string ID = "jp.lilxyzw.editortoolbox.MSAAButton";
+        internal const string ID = "moe.noridev.editortoolbox.MSAAButton";
         private static readonly Dictionary<SceneView, RenderTexture> prevRTs = new();
         private static readonly HashSet<MSAAButton> buttons = new();
 

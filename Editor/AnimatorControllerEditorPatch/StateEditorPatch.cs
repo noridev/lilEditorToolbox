@@ -6,9 +6,9 @@ using System.Reflection;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
-using static jp.lilxyzw.editortoolbox.AnimatorControllerEditorPatch;
+using static moe.noridev.editortoolbox.AnimatorControllerEditorPatch;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     // State複数選択時にプロパティがコピーされてしまうUnityのバグの修正
     [HarmonyPatch]

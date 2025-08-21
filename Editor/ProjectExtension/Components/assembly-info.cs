@@ -1,4 +1,4 @@
-using jp.lilxyzw.editortoolbox;
+using moe.noridev.editortoolbox;
 [assembly: ExportsProjectExtensionComponent(
     typeof(OverlayFileInFolder),
     typeof(IconOverlay),

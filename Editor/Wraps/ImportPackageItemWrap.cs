@@ -1,7 +1,7 @@
 using System;
 using UnityEditor;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal class ImportPackageItemWrap : WrapBase
     {

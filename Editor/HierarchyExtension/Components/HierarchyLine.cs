@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Displays lines representing the parent-child relationships of objects in the Hierarchy.")]
     internal class HierarchyLine : IHierarchyExtensionComponent

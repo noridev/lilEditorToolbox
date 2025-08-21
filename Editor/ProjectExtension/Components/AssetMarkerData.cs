@@ -6,9 +6,9 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
-    [FilePath("./jp.lilxyzw.editortoolbox.AssetMarkerData.asset", FilePathAttribute.Location.ProjectFolder)]
+    [FilePath("./moe.noridev.editortoolbox.AssetMarkerData.asset", FilePathAttribute.Location.ProjectFolder)]
     internal class AssetMarkerData : ScriptableSingleton<AssetMarkerData>
     {
         [InitializeOnLoadMethod]

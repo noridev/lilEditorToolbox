@@ -4,11 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using jp.lilxyzw.editortoolbox.runtime;
+using moe.noridev.editortoolbox.runtime;
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal static partial class DocsGeneratorMenu
     {

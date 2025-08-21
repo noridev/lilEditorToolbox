@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEditor.Animations;
 using Object = UnityEngine.Object;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal class AnimatorControllerToolWrap : WrapBase
     {

@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal static partial class DocsGeneratorMenu
     {

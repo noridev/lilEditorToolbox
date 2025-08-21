@@ -8,7 +8,7 @@ using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [HarmonyPatch]
     internal class AnimatorControllerEditorPatch
@@ -28,7 +28,7 @@ namespace jp.lilxyzw.editortoolbox
         [InitializeOnLoadMethod]
         private static void DoPatching()
         {
-            new Harmony("jp.lilxyzw.editortoolbox").PatchAll();
+            new Harmony("moe.noridev.editortoolbox").PatchAll();
         }
 
         // LayerのWeight

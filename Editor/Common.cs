@@ -3,12 +3,12 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     internal static class Common
     {
         internal const string MENU_HEAD = "Tools/lilEditorToolbox/";
-        internal static readonly string PREFERENCE_FOLDER = $"{UnityEditorInternal.InternalEditorUtility.unityPreferencesFolder}/jp.lilxyzw";
+        internal static readonly string PREFERENCE_FOLDER = $"{UnityEditorInternal.InternalEditorUtility.unityPreferencesFolder}/moe.noridev";
 
         internal static bool SkipScan(Object obj)
         {

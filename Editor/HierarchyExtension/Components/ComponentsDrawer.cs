@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Displays the object's components. You can turn components on or off by clicking their icons.")]
     internal class ComponentsDrawer : IHierarchyExtensionComponent

@@ -1,8 +1,8 @@
 {
-    "name": "jp.lilxyzw.editortoolbox.vrchat",
+    "name": "moe.noridev.editortoolbox.vrchat",
     "rootNamespace": "",
     "references": [
-        "jp.lilxyzw.editortoolbox.runtime",
+        "moe.noridev.editortoolbox.runtime",
         "VRC.SDKBase"
     ],
     "includePlatforms": [

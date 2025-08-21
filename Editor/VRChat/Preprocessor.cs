@@ -1,9 +1,9 @@
 #if LIL_VRCSDK3
-using jp.lilxyzw.editortoolbox.runtime;
+using moe.noridev.editortoolbox.runtime;
 using UnityEngine;
 using VRC.SDKBase.Editor.BuildPipeline;
 
-namespace jp.lilxyzw.editortoolbox.vrchat
+namespace moe.noridev.editortoolbox.vrchat
 {
     public class Preprocessor : IVRCSDKPreprocessAvatarCallback
     {

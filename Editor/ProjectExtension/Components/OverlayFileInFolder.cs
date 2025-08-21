@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Overlays the folder icon with the files inside.")]
     internal class OverlayFileInFolder : IProjectExtensionComponent

@@ -7,9 +7,9 @@ using System.Reflection;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
-using static jp.lilxyzw.editortoolbox.AnimatorControllerEditorPatch;
+using static moe.noridev.editortoolbox.AnimatorControllerEditorPatch;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     // TransitionのInterruption Source等がコピーされないUnityのバグを修正
     [HarmonyPatch]

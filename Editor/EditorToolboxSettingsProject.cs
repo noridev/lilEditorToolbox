@@ -1,8 +1,8 @@
 using UnityEditor;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
-    [FilePath("ProjectSettings/jp.lilxyzw.editortoolbox.asset", FilePathAttribute.Location.ProjectFolder)]
+    [FilePath("ProjectSettings/moe.noridev.editortoolbox.asset", FilePathAttribute.Location.ProjectFolder)]
     internal class EditorToolboxSettingsProject : ScriptableSingleton<EditorToolboxSettingsProject>
     {
         public string settingPreset;

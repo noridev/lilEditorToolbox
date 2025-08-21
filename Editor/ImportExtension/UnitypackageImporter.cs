@@ -6,10 +6,10 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine.UIElements;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     // ディレクトリが空だとUnityのバグでエラーになるので ./ は必須
-    [FilePath("./jp.lilxyzw.editortoolbox.UnitypackageImporter.asset", FilePathAttribute.Location.ProjectFolder)]
+    [FilePath("./moe.noridev.editortoolbox.UnitypackageImporter.asset", FilePathAttribute.Location.ProjectFolder)]
     internal class UnitypackageImporter : ScriptableSingleton<UnitypackageImporter>
     {
         public List<UnitypackageAssets> importedAssets = new();

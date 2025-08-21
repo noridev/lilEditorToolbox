@@ -1,9 +1,9 @@
 {
-    "name": "jp.lilxyzw.editortoolbox",
-    "rootNamespace": "jp.lilxyzw.editortoolbox",
+    "name": "moe.noridev.editortoolbox",
+    "rootNamespace": "moe.noridev.editortoolbox",
     "references": [
-        "jp.lilxyzw.editortoolbox.runtime",
-        "jp.lilxyzw.editortoolbox.docsgenerator"
+        "moe.noridev.editortoolbox.runtime",
+        "moe.noridev.editortoolbox.docsgenerator"
     ],
     "includePlatforms": [
         "Editor"

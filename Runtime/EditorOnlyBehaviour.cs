@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox.runtime
+namespace moe.noridev.editortoolbox.runtime
 {
     public abstract class EditorOnlyBehaviour : MonoBehaviour
     #if LIL_VRCSDK3

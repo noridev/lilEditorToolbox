@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Shows the icon if the object is EditorOnly.")]
     internal class EditorOnlyLabel : IHierarchyExtensionComponent
@@ -15,7 +15,7 @@ namespace jp.lilxyzw.editortoolbox
             rectEO.width = rectEO.height;
 
             EditorGUI.BeginChangeCheck();
-            var isEditorOnly = GUIHelper.DToggleMiniLabel("E", "jp.lilxyzw.editortoolbox.EditorOnlyLabel", instanceID.ToString(), rectEO, IsEditorOnly(gameObject.transform));
+            var isEditorOnly = GUIHelper.DToggleMiniLabel("E", "moe.noridev.editortoolbox.EditorOnlyLabel", instanceID.ToString(), rectEO, IsEditorOnly(gameObject.transform));
             if(EditorGUI.EndChangeCheck())
             {
                 using var so = new SerializedObject(gameObject);

@@ -1,6 +1,6 @@
 using System;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     public static class CallerUtils
     {

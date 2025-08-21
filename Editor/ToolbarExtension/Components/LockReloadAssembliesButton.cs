@@ -2,7 +2,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace jp.lilxyzw.editortoolbox
+namespace moe.noridev.editortoolbox
 {
     [Tooltip("Locks the assembly to reduce the wait time for script compilation. This is useful if you frequently rewrite scripts.")]
     internal class LockReloadAssembliesButton : IToolbarExtensionComponent

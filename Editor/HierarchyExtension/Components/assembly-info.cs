@@ -1,4 +1,4 @@
-using jp.lilxyzw.editortoolbox;
+using moe.noridev.editortoolbox;
 [assembly: ExportsHierarchyExtensionComponent(
     typeof(HierarchySpacer),
     typeof(ActiveToggle),

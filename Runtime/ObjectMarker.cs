@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace jp.lilxyzw.editortoolbox.runtime
+namespace moe.noridev.editortoolbox.runtime
 {
     [Docs(
         "ObjectMarker",
