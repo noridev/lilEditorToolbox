@@ -1,6 +1,6 @@
 {
   "name": "moe.noridev.editortoolbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "baseVersion": "1.9.1",
   "displayName": "NoriDev - lilEditorToolbox",
   "description": "Extensions for Unity Editor.",
