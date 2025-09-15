@@ -1,6 +1,6 @@
 {
   "name": "moe.noridev.editortoolbox",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "baseVersion": "1.10.1",
   "displayName": "NoriDev - lilEditorToolbox",
   "description": "Extensions for Unity Editor.",
@@ -10,7 +10,7 @@
   },
   "unity": "2022.3",
   "license": "MIT",
-  "url" : "https://github.com/noridev/lilEditorToolbox/releases/download/1.0.2/moe.noridev.editortoolbox-1.0.2.zip?",
+  "url" : "https://github.com/noridev/lilEditorToolbox/releases/download/1.0.3/moe.noridev.editortoolbox-1.0.3.zip?",
   "repo" : "https://vpm.noridev.moe/index.json",
   "changelogUrl": "https://github.com/noridev/lilEditorToolbox/blob/main/CHANGELOG_NRDV.md"
 }
